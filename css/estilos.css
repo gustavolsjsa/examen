@@ -35,6 +35,8 @@ footer {
 
 .btn-primary {
   background-color: #0A23C5 !important;
+  border-radius: 1rem;
+  border: black dotted;
 }
 
 .bg-primary {
