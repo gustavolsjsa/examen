@@ -1,0 +1,124 @@
+// ****************************
+// ASIGNACION DE COLORES
+// ****************************
+
+$principal:#0A23C5;
+$secundario:#727162;
+$terciario:#5FA2FF;
+$texto: black;
+
+/*-----------------------------
+1. TIPOGRAFIA
+-------------------------------*/ 
+html{
+    font-size: 62.5%;    /* Normalizar para REMS */
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
+    color:$texto;
+}
+/* Principales */
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.6rem;
+}
+footer{
+    color:$terciario;
+}
+
+// *---------------------------
+// 2. ESTILOS BOTONES
+// *---------------------------
+.btn-primary{
+    background-color:$principal !important;
+}
+
+// *---------------------------
+// 3. ESTILOS COLOR PRINCIPAL
+// *---------------------------
+.bg-primary{
+    background-color: $principal !important;
+}
+.text-primary{
+    color:$principal !important;
+}
+
+// *---------------------------
+// 4. ESTILOS COLOR SECUNDARIO
+// *---------------------------
+.bg-secondary{
+    background-color: $secundario !important;
+}
+.text-secondary{
+    color:$secundario !important;
+}
+
+.bg-success{
+    background-color: $terciario !important;
+}
+.text-success{
+    color:$terciario !important;
+}
+
+
+// *---------------------------
+// 5. ESTILOS ENCABEZADO
+// *---------------------------
+.redes-sociales li a i{
+    color:$terciario;   
+    padding-left: 1rem; 
+    padding-top: 0.5rem;
+    font-size: 2rem;
+}
+.navbar-nav li a{
+    color: $terciario !important;
+    padding-right: 3rem !important;
+    font-size: 2rem;
+}
+.fondo-header{
+    background-image: url(../images/principal01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 35rem;
+}
+#slogan{
+    text-shadow: -6rem -3.5rem .7rem gray;
+}
+
+
+// *---------------------------
+// 6. ESTILOS SECCIONES
+// *---------------------------
+.card-body i{
+    text-shadow: -.2rem -.4rem .1rem black;
+}
+
+.razones{
+    border:none;
+}
+
+// *---------------------------
+// 7. ESTILOS SECCIÓN PRINCIPAL
+// *---------------------------
+
+// *---------------------------
+// 7. ESTILOS FOOTER
+// *-----
+.footer li a{
+    color: $terciario !important;
+    text-decoration: none;
+}
+
+address a{
+    color: $terciario !important;
+    text-decoration: none !important;
+}
